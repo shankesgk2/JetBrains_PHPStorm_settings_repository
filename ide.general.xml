@@ -2,5 +2,6 @@
   <component name="GeneralSettings">
     <option name="confirmExit" value="false" />
     <option name="defaultProjectDirectory" value="/Volumes/work/php" />
+    <option name="processCloseConfirmation" value="TERMINATE" />
   </component>
 </application>

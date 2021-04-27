@@ -1,0 +1,21 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2020-07-07T20:11:04</property>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2020.1.2.0.0</property>
+    <property name="modified">2020-07-08T09:19:05</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="851e2b" />
+      </value>
+    </option>
+    <option name="CONSOLE_RED_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="632e2e" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

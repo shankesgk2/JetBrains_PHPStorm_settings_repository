@@ -3,7 +3,9 @@
     <option name="UI_FILTER_LEGALS" value="true" />
   </component>
   <component name="UISettings">
+    <option name="EDITOR_AA_TYPE" value="Greyscale" />
     <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="MAX_LOOKUP_WIDTH2" value="1076" />
+    <option name="PIN_FIND_IN_PATH_POPUP" value="true" />
   </component>
 </application>

@@ -1,19 +1,24 @@
 <application>
+  <component name="PhpAutoImport" auto_import_file_scope="true" />
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="3a5be566-5d35-4dd1-85f4-6333fea1d13f" name="PHP 7.4.7" home="/usr/local/Cellar/php/7.4.7/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="134c360a-a4a5-4a69-ab9d-9e7e63ffd0e4" name="PHP 7.4" home="/usr/local/Cellar/php/7.4.12/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.4.7">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.4.7/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.4.7/bin/php" path_separator=":" version="7.4.7">
-          <additional_php_ini>/usr/local/etc/php/7.4/conf.d/ext-opcache.ini, /usr/local/etc/php/7.4/conf.d/php-memory-limits.ini</additional_php_ini>
+      <interpreter name="PHP 7.4">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.4.12/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.4.12/bin/php" path_separator=":" version="7.4.12">
+          <additional_php_ini>/usr/local/etc/php/7.4/conf.d/ext-opcache.ini, /usr/local/etc/php/7.4/conf.d/php-memory-limits.ini, /usr/local/etc/php/7.4/conf.d/zend-ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.4/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.4.7/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.4.12/share/php/pear" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.9.6">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="FFI" />
@@ -71,11 +76,13 @@
             <extension name="sodium" />
             <extension name="sqlite3" />
             <extension name="standard" />
+            <extension name="swoole" />
             <extension name="sysvmsg" />
             <extension name="sysvsem" />
             <extension name="sysvshm" />
             <extension name="tidy" />
             <extension name="tokenizer" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
@@ -87,8 +94,5 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
-  </component>
-  <component name="PhpSmartKeysConfiguration">
-    <option name="promptFindUsagesOfBaseMethod" value="false" />
   </component>
 </application>
